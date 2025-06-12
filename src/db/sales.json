@@ -1,0 +1,89 @@
+[
+  {
+    "product": "Refrigerante",
+    "sales": [
+      {
+        "month": "Janeiro",
+        "quantity": 120
+      },
+      {
+        "month": "Fevereiro",
+        "quantity": 150
+      },
+      {
+        "month": "Março",
+        "quantity": 130
+      },
+      {
+        "month": "Abril",
+        "quantity": 170
+      },
+      {
+        "month": "Maio",
+        "quantity": 160
+      },
+      {
+        "month": "Junho",
+        "quantity": 140
+      }
+    ]
+  },
+  {
+    "product": "Suco",
+    "sales": [
+      {
+        "month": "Janeiro",
+        "quantity": 80
+      },
+      {
+        "month": "Fevereiro",
+        "quantity": 95
+      },
+      {
+        "month": "Março",
+        "quantity": 100
+      },
+      {
+        "month": "Abril",
+        "quantity": 90
+      },
+      {
+        "month": "Maio",
+        "quantity": 110
+      },
+      {
+        "month": "Junho",
+        "quantity": 105
+      }
+    ]
+  },
+  {
+    "product": "Salgadinho",
+    "sales": [
+      {
+        "month": "Janeiro",
+        "quantity": 60
+      },
+      {
+        "month": "Fevereiro",
+        "quantity": 75
+      },
+      {
+        "month": "Março",
+        "quantity": 70
+      },
+      {
+        "month": "Abril",
+        "quantity": 95
+      },
+      {
+        "month": "Maio",
+        "quantity": 85
+      },
+      {
+        "month": "Junho",
+        "quantity": 90
+      }
+    ]
+  }
+]
