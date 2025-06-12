@@ -1,2 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import "tailwindcss";
 
+
+body {
+  font-family: Roboto, sans-serif;
+}

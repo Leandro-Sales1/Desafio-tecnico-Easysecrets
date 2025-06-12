@@ -1,16 +1,13 @@
-import salesDB from "./db/sales.json"
-import type { ISales } from "./interfaces/ISales"
-
+import ChartComponent from "./components/ChartComponent";
+import ChartForm from "./components/ChartForm";
 
 function App() {
-  const sales : ISales[] = salesDB
-  console.log(sales);
-
 
   return (
     <>
-      <h1 className=" mt-44">teste</h1>
-
+      <h1 className="text-center text-2xl mt-16">Desafio técnico - Easysecrets - Leandro Sales</h1>
+      <ChartForm />
+      <ChartComponent />
     </>
   )
 }
