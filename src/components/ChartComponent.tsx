@@ -5,6 +5,7 @@ import deepClone from "../utils/deepClone";
 
 const ChartComponent = () => {
   const { categories, series, type } = useSelector((state: RootState) => state.chart);
+
   const options: ApexCharts.ApexOptions = {
     stroke: {
       curve: 'smooth',
@@ -23,7 +24,7 @@ const ChartComponent = () => {
 
   const mutableSeries = deepClone(series);
 
-  return <Chart options={options} type={type} series={mutableSeries} height={350} />;
+  return <Chart key={type} options={options} type={type} series={mutableSeries} height={400} />;
 
 }
 

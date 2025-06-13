@@ -20,7 +20,7 @@ const initialState: ChartState = {
     name: product.product,
     data: product.sales.map((sale) => sale.quantity)
   })),
-  type: 'line',
+  type: 'bar',
 };
 
 const chartSlice = createSlice({
