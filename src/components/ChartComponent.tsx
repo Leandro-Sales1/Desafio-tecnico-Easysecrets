@@ -9,7 +9,11 @@ const ChartComponent = () => {
   const mutableOptions = deepClone(options);
 
 
-  return <Chart key={type} options={mutableOptions} type={type} series={mutableSeries} height={400} />;
+  return (
+    <section className="mt-8 md:mt-12">
+      <Chart key={type} options={mutableOptions} type={type} series={mutableSeries} height={400} />
+    </section>
+  )
 }
 
 export default ChartComponent;

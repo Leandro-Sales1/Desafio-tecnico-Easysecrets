@@ -24,6 +24,18 @@ const initialState: ChartState = {
   })),
   type: 'bar',
   options: {
+    chart: {
+      toolbar: {
+        show: true,
+        tools: {
+          selection: false,
+          zoom: false,
+          zoomin: false,
+          zoomout: false,
+          pan: false
+        },
+      }
+    },
     stroke: {
       curve: 'smooth',
     },

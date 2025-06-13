@@ -5,7 +5,7 @@ function App() {
 
   return (
     <main>
-      <h1 className="text-center text-2xl mt-16">Desafio técnico - Easysecrets - Leandro Sales ✍️</h1>
+      <h1 className="text-center text-2xl mt-8 md:mt-16">Desafio técnico - Easysecrets - Leandro Sales ✍️</h1>
       <ChartForm />
       <ChartComponent />
     </main>

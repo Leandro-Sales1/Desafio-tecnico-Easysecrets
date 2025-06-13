@@ -20,11 +20,11 @@ const ChartForm = () => {
   };
 
   return (
-    <section className='flex flex-col justify-start ml-4 mt-4 gap-4'>
+    <section className='flex flex-col justify-start ml-4 mt-8 gap-4'>
       <div>
         <h3 className='text-lg'>Modifique seu gráfico abaixo: 🚀</h3>
       </div>
-      <form id='ChartForm' className='flex flex-col gap-4' >
+      <form id='ChartForm' className='flex flex-col mt-3 gap-6'>
         <div>
           <label htmlFor='TypeSelect'>Tipo de Gráfico:</label>
           <select id='TypeSelect' className='ml-2 px-0.5 w-18 h-7 border border-black rounded-lg' onChange={handleChangeType}>
